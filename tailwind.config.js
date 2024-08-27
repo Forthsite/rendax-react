@@ -10,8 +10,8 @@
           'pulse-slow': 'pulse 4s linear infinite',
         },
         colors:{
-          primary: '#22d3ee',
-          secondary: '#818cf8',
+          primary: '#64748b',
+          secondary: '#cbd5e1',
         }
       }
     },

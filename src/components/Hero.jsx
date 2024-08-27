@@ -4,7 +4,7 @@ function Header({ maintext, subtext, bg, logo }) {
   return (
     <>
     <div className='relative h-screen w-full flex justify-center bg-cover group bg-center' style={{ backgroundImage: `url(${bg})` }}>
-        <div className="absolute h-2/3 inset-0 bg-gradient-to-t from-primary/45 to-primary/0 z-10 mt-auto bottom-0 transition-all duration-1000 group-hover:h-1/2"></div>
+        <div className="absolute h-2/3 inset-0 bg-gradient-to-t from-primary/65 to-primary/0 z-10 mt-auto bottom-0 transition-all duration-1000 group-hover:h-1/2"></div>
         <div className='flex relative w-11/12 sm:w-auto h-full justify-center items-center z-20 flex-col'>
             <div className='flex flex-col items-center w-full'>
                 <h1 className='w-full text-5xl text-center text-white font-normal py-6 sm:px-24 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100 mt-auto uppercase'>
