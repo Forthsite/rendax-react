@@ -31,6 +31,7 @@ import mapimg from './assets/map.png'
 import "vanilla-cookieconsent/dist/cookieconsent.css";
 import useCookieConsent from "./hooks/useCookieConsent";
 import Blog from './components/Blog'
+import bggraphics from './assets/bg_graphics.svg'
 
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
   const maplink = "https://www.google.com/maps/place/Z%C3%A1dvo%C5%99%C3%AD+746,+679+63+Velk%C3%A9+Opatovice/@49.6120794,16.6623692,17z/data=!3m1!4b1!4m5!3m4!1s0x47127ac16bd06e85:0x6490d4ea55420611!8m2!3d49.6120759!4d16.6645579?shorturl=1"
 
   return (
-    <div className='flex flex-col justify-center items-center bg-slate-50'>
+    <div className='flex flex-col justify-center items-center bg-slate-50' style={{backgroundImage: `url(${bggraphics})`}}>
       <Header liItems={navbar} logo={logo} />
       <Hero logo={logowhite} subtext={'Poskytujeme profesionální dopravu jak pro firmy, tak i pro fyzické osoby.'} bg={herobg} />
       <CardGrid Card={Card}/>
