@@ -13,8 +13,7 @@ function Blog({}) {
     </h2>
     <div className='flex flex-col gap-8 w-3/4 justify-center'>
         {articles.map(article => (
-            <Link > 
-             {/* to={`/blog/${article.url}`}>  */}
+            <Link to={`/blog/${article.url}`}> 
               <Blogpost key={article.id} title={article.title} img={article.mainimg} content={article.content[0].paragraph} date={article.date} />
             </Link>
         ))}

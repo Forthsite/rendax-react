@@ -27,7 +27,7 @@ import p3 from './assets/partner3.svg'
 import p4 from './assets/CLLogo.svg'
 
 import herobg from './assets/rendax_hero.jpeg'
-import mapimg from './assets/map.png'
+import mapimg from './assets/map2.png'
 import "vanilla-cookieconsent/dist/cookieconsent.css";
 import useCookieConsent from "./hooks/useCookieConsent";
 import Blog from './components/Blog'

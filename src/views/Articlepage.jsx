@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import logo from '../assets/lakovnalogo.png'
+import logo from '../assets/rendax_logo.png'
 import { ScrollRestoration, useParams } from "react-router-dom";
 import { articles } from "../articles";
 import Footer from "../components/Footer";

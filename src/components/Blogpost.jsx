@@ -2,8 +2,8 @@ function Blogpost({title, img, content, date}) {
 
   return (
     <>
-    <div className="w-full h-full flex flex-col md:flex-row gap-8 shadow-xl hover:cursor-pointer group transition-all duration-300 hover:bg-slate-100">
-        <div className='w-full rounded-t-xl md:w-64 md:rounded-l-xl overflow-hidden'>
+    <div className="w-full h-full flex flex-col md:flex-row gap-8 shadow-xl hover:cursor-pointer group transition-all duration-300 bg-slate-50 hover:bg-slate-100">
+        <div className='w-full rounded-t-xl md:w-64 h-48 md:rounded-l-xl overflow-hidden'>
             <img src={img} className='w-full h-full object-cover' />
         </div>
         <div className="flex flex-col w-full p-2 group">

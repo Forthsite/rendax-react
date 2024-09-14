@@ -1,28 +1,30 @@
-import testimg from './assets/g (2).jpg';
-import c1i1 from './assets/clanek1/IMG_7956.jpeg';
-import c1i2 from './assets/clanek1/IMG_7955.jpeg';
-import c1i3 from './assets/clanek1/IMG_6897.jpeg';
-import c1i4 from './assets/clanek1/IMG_8161.jpeg';
-import c1i5 from './assets/clanek1/IMG_8580.jpeg'
+import c1i1 from './assets/clanek1/tiny1.jpg';
+import c1i2 from './assets/clanek1/tiny2.jpg';
+import c1i3 from './assets/clanek1/tiny3.jpg';
+import g5 from './assets/rendax_insta/rendax insta (2).jpg'
 
 export const articles = [
     {
         id: 1,
-        title: "Mokré lakování průmyslu",
+        title: "Jak v autodopravě Rendax stěhujeme tiny domky autem s hydraulickou rukou",
         url: "mokre-lakovani-prumyslu",
-        date: '4.7.2024',
-        mainimg: c1i2,
+        date: '14.9.2024',
+        mainimg: g5,
         content: [
-            {paragraph: 'Mokré lakování je jednou z nejdůležitějších metod povrchové úpravy, která nachází široké uplatnění v různých průmyslových odvětvích. Tato technika je oblíbená pro svou schopnost vytvářet hladký, rovnoměrný a esteticky příjemný povrch, který zároveň chrání materiál před korozí a opotřebením. V tomto článku se podíváme na principy mokrého lakování, jeho výhody, aplikace a proč je tato metoda ideální volbou pro váš průmyslový projekt.'},
-            {header: 'Principy mokrého lakování'},
-            {paragraph: 'Mokré lakování spočívá v nanášení tekutého nátěru na povrch materiálu. Tento proces zahrnuje několik kroků, které zahrnují přípravu povrchu, aplikaci nátěru a následné sušení či vytvrzování. Kvalitní příprava povrchu je klíčová pro dosažení optimálních výsledků. Povrch musí být čistý, suchý a zbavený mastnoty a jiných nečistot. Často se používají metody jako pískování nebo chemické čištění. Nátěr se aplikuje pomocí různých technik, jako je stříkání, válcování nebo štětcování. Výběr techniky závisí na typu nátěru a specifických požadavcích projektu. Po nanesení nátěru je třeba jej nechat uschnout nebo vytvrdit. Tento proces může probíhat při pokojové teplotě nebo v sušících pecích, v závislosti na typu nátěru a požadované rychlosti vytvrzování.'},
-            {header: 'Výhody mokrého lakování'},
-            {paragraph: 'Mokré lakování nabízí několik klíčových výhod, které ho činí ideální volbou pro průmyslové aplikace. Mokré lakování poskytuje hladký a rovnoměrný povrch, který je esteticky příjemný a odolný vůči mechanickému poškození. Tento proces umožňuje aplikaci různých barev a povrchových úprav, včetně lesklých, matných a metalických efektů. Mokré lakování vytváří ochrannou vrstvu, která chrání materiál před korozí, chemickými látkami a mechanickým opotřebením. Mokré lakování lze aplikovat na různé materiály, včetně kovů, plastů, dřeva a kompozitů, což z něj činí univerzální řešení pro různé průmyslové potřeby.'},
-            {header: 'Aplikace mokrého lakování v průmyslu'},
-            {paragraph: 'Mokré lakování se používá v široké škále průmyslových odvětví, včetně automobilového průmyslu, strojírenství, stavebnictví, a nábytkářského průmyslu. Mokré lakování je klíčové pro lakování karoserií automobilů, kde poskytuje nejen estetický vzhled, ale také ochranu proti korozi a povětrnostním vlivům. V tomto odvětví se mokré lakování používá k ochraně strojních součástí a zařízení před opotřebením a chemickými látkami. Ocelové konstrukce, mosty a další stavební prvky jsou často lakovány mokrým lakováním, aby se zvýšila jejich odolnost vůči korozivním vlivům a prodloužila jejich životnost. Mokré lakování je také populární pro povrchovou úpravu nábytku, kde poskytuje trvanlivý a esteticky příjemný povrch.'},
+            {paragraph: 'Tiny domky, malé mobilní domy, které jsou čím dál populárnější, představují unikátní způsob bydlení. Jejich stěhování však vyžaduje odborné dovednosti a speciální techniku. V autodopravě Rendax se na tyto výzvy specializujeme a nabízíme spolehlivé řešení v podobě přepravy tiny domků pomocí nákladních aut vybavených hydraulickou rukou. Tento článek vám přiblíží, jak celý proces probíhá a proč je tato metoda ideální pro přepravu mobilních domů.'},
+            {header: 'Přesné plánování a příprava'},
+            {paragraph: 'Než dojde k samotné přepravě, věnujeme čas důkladnému plánování. Každý tiny domek má své specifické rozměry, váhu a konstrukci, což znamená, že je potřeba brát v úvahu jak trasu, tak samotnou manipulaci s domkem. Naši odborníci provádějí předem inspekci místa, kde bude domek nakládán a následně vykládán, aby zajistili, že vše proběhne bez problémů.'},
+            {header: 'Výhoda použití hydraulické ruky'},
+            {paragraph: 'Hydraulická ruka, kterou jsou naše nákladní vozy vybaveny, je nezbytným nástrojem při manipulaci s objemnými náklady, jako jsou tiny domky. Tento stroj umožňuje bezpečné naložení a vyložení domku i v těžko dostupných lokalitách, kam by se klasické zvedací stroje nedostaly. Hydraulická ruka má vysokou nosnost a dostatečný dosah, což nám umožňuje přesné a bezpečné umístění domku na připravené místo.'},
+            {header: 'Nakládka tiny domku'},
+            {paragraph: 'Samotný proces nakládky začíná opatrným připevněním domku na hydraulickou ruku pomocí bezpečnostních popruhů a uchycení, která jsou navržena tak, aby zabránila jakémukoli poškození konstrukce domku. Díky možnosti precizního ovládání hydraulické ruky je domek jemně zvednut a umístěn na nákladní plošinu vozu. Náš tým dbá na to, aby během celého procesu nedošlo k žádným otřesům či posunům, které by mohly ohrozit stabilitu domku.'},
+            {header: 'Přeprava a vykládka'},
+            {paragraph: 'Po bezpečném upevnění tiny domku na plošinu následuje samotná přeprava. Díky moderním a spolehlivým nákladním vozům je přeprava bezpečná i na delší vzdálenosti. Jakmile dorazíme na místo určení, proces se opakuje v opačném pořadí – domek je opatrně vyložen hydraulickou rukou a umístěn na požadované místo. I v případě omezeného prostoru nebo náročného terénu dokážeme díky našim zkušenostem a technice tiny domek umístit přesně tam, kde je potřeba.'},
+            {header: 'Proč si vybrat Rendax?'},
+            {paragraph: 'Stěhování tiny domků vyžaduje odbornou péči, kterou vám autodoprava Rendax může nabídnout. Díky našim zkušeným řidičům a obsluze hydraulické ruky zajišťujeme maximální bezpečnost a efektivitu při každém stěhování. Ať už jde o přepravu na krátkou či dlouhou vzdálenost, naše služby jsou rychlé, spolehlivé a přizpůsobené vašim potřebám.'},
             {header: 'Závěr'},
-            {paragraph: 'Mokré lakování je univerzální a efektivní metoda povrchové úpravy, která nabízí řadu výhod pro různé průmyslové aplikace. Díky své schopnosti poskytovat vysokou kvalitu povrchu, širokou škálu barev a povrchových úprav, a vynikající ochranu proti korozi a opotřebení, je tato technika nepostradatelná v mnoha průmyslových odvětvích. Pokud hledáte spolehlivé a profesionální řešení pro vaše lakovací potřeby, Lakovna Boskovice je zde pro vás. Naše zkušenosti a odborné znalosti vám zajistí optimální výsledky pro každý váš projekt.'},
-            {imgs: [c1i1, c1i3, c1i4, c1i5]}
+            {paragraph: 'Stěhování tiny domků pomocí nákladního vozu s hydraulickou rukou je ideálním řešením pro ty, kteří hledají bezpečný, efektivní a flexibilní způsob přepravy. V Rendaxu máme vybavení i zkušenosti, které vám zaručí hladký průběh celé akce. Máte zájem o naše služby? Neváhejte nás kontaktovat a rádi vám pomůžeme s plánováním a realizací přepravy vašeho tiny domku.'},
+            {imgs: [c1i1, c1i2, c1i3]}
         ],
     }
 ]
