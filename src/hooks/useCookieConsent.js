@@ -75,7 +75,7 @@ export default function useCookieConsent() {
         translations: {
           cs: {
             consentModal: {
-              title: 'Cookies pro Lakovna-boskovice.cz',
+              title: 'Cookies pro Rendaxsro.cz',
               description: 'Na našich webových stránkách používáme cookies, abychom vám usnadnili a zlepšili váš online zážitek. Pokračováním v prohlížení našich stránek souhlasíte s jejich používáním.',
               acceptAllBtn: 'Přijmout všechny',
               acceptNecessaryBtn: 'Odmítnout všechny',
