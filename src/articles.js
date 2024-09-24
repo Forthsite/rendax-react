@@ -1,7 +1,7 @@
 import c1i1 from './assets/clanek1/tiny1.jpg';
 import c1i2 from './assets/clanek1/tiny2.jpg';
 import c1i3 from './assets/clanek1/tiny3.jpg';
-import g5 from './assets/rendax_insta/rendax insta (2).jpg'
+import g5 from './assets/gallery/rendax insta (2).jpg'
 
 export const articles = [
     {

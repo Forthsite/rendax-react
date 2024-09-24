@@ -12,22 +12,21 @@ import Partners from './components/Partners'
 import Socials from './components/Socials'
 import Textblock from "./components/Textblock";
 
-import g1 from './assets/rendax_insta/rendax insta (1).jpg'
-import g2 from './assets/rendax_insta/rendax insta (5).jpg'
-import g3 from './assets/rendax_insta/rendax insta (7).jpg'
-import g4 from './assets/rendax_insta/rendax insta (4).jpg'
-import g5 from './assets/rendax_insta/rendax insta (2).jpg'
-import g6 from './assets/rendax_insta/rendax insta (6).jpg'
-import g7 from './assets/rendax_insta/rendax insta (3).jpg'
-import g8 from './assets/rendax_insta/rendax insta (8).jpg'
+import g1 from './assets/gallery/1.jpeg'
+import g2 from './assets/gallery/5.jpeg'
+import g3 from './assets/gallery/rendax insta (4).jpg'
+import g4 from './assets/gallery/rendax insta (7).jpg'
+import g5 from './assets/gallery/rendax insta (2).jpg'
+import g6 from './assets/gallery/2.jpeg'
+import g7 from './assets/gallery/3.jpeg'
+import g8 from './assets/gallery/4.jpeg'
 
-import p1 from './assets/partner1.jpeg'
-import p2 from './assets/partner2.png'
-import p3 from './assets/partner3.svg'
-import p4 from './assets/CLLogo.svg'
+import p1 from './assets/stavebniny_malik.svg';
+import p2 from './assets/lakovnalogo.png';
+import p3 from './assets/logo_hrbata.svg'
 
 import herobg from './assets/rendax_hero.jpeg'
-import mapimg from './assets/map2.png'
+import mapimg from './assets/map_color.jpg'
 import "vanilla-cookieconsent/dist/cookieconsent.css";
 import useCookieConsent from "./hooks/useCookieConsent";
 import Blog from './components/Blog'
@@ -54,7 +53,7 @@ function App() {
     {img: g7, desc: ''},
     {img: g8, desc: ''},
   ]
-  const partners = [ p1, p2, p3, p4 ]
+  const partners = [ p1, p2, p3 ]
   const mainText = `Poskytujeme profesionální dopravu jak pro firmy, tak i pro fyzické osoby. Nakládku a vykládku zajistí hydraulická ruka, která je součástí našeho přepravního vozu. Neváhejte naši firmu kontaktovat a starosti s přepravou vašich těžkých nákladů nechejte na nás, o vše se rádi postaráme.`
   const maplink = "https://www.google.com/maps/place/Z%C3%A1dvo%C5%99%C3%AD+746,+679+63+Velk%C3%A9+Opatovice/@49.6120794,16.6623692,17z/data=!3m1!4b1!4m5!3m4!1s0x47127ac16bd06e85:0x6490d4ea55420611!8m2!3d49.6120759!4d16.6645579?shorturl=1"
 
@@ -69,7 +68,7 @@ function App() {
       <Textblock header={'Nezávazná poptávka'} mainText={'Zde můžete napřímo kontaktovat pana majitele:'} />
       <Blog />
       <Socials header={'Sledujte nás'} insta={true} instalink={'https://www.instagram.com/rendax_s.r.o/'} fb={true} fblink={'https://www.facebook.com/rendaxsro'}/>
-      <Contact mapimg={mapimg} maplink={maplink} address={'Zádvoří 746\n679 63 Velké Opatovice'} tel={'+420 735 063 733'} email={'papousek@rendaxsro.cz\nfakturace@rendaxsro.cz'} ic={'14028727'} dic={'CZ14028727'}/>
+      <Contact mapimg={mapimg} maplink={maplink} address={'Havlíčkova 1598/63\n680 01 Boskovice'} tel={'+420 735 063 733'} email={'papousek@rendaxsro.cz\nfakturace@rendaxsro.cz'} ic={'14028727'} dic={'CZ14028727'}/>
       <Footer />
     </div>
   )
