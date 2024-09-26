@@ -55,7 +55,7 @@ function App() {
   ]
   const partners = [ p1, p2, p3 ]
   const mainText = `Poskytujeme profesionální dopravu jak pro firmy, tak i pro fyzické osoby. Nakládku a vykládku zajistí hydraulická ruka, která je součástí našeho přepravního vozu. Neváhejte naši firmu kontaktovat a starosti s přepravou vašich těžkých nákladů nechejte na nás, o vše se rádi postaráme.`
-  const maplink = "https://www.google.com/maps/place/Z%C3%A1dvo%C5%99%C3%AD+746,+679+63+Velk%C3%A9+Opatovice/@49.6120794,16.6623692,17z/data=!3m1!4b1!4m5!3m4!1s0x47127ac16bd06e85:0x6490d4ea55420611!8m2!3d49.6120759!4d16.6645579?shorturl=1"
+  const maplink = "https://www.google.com/maps/place/49%C2%B030'00.9%22N+16%C2%B039'47.3%22E/@49.5002649,16.6605537,17z/data=!3m1!4b1!4m4!3m3!8m2!3d49.5002614!4d16.6631286?entry=ttu"
 
   return (
     <div className='flex flex-col justify-center items-center bg-slate-50' style={{backgroundImage: `url(${bggraphics})`}}>
