@@ -8,7 +8,7 @@ function Header({ maintext, subtext, bg, logo }) {
         <div className='flex relative w-11/12 sm:w-auto h-full justify-center items-center z-20 flex-col'>
             <div className='flex flex-col items-center w-full'>
                 <h1 className='w-full text-5xl text-center text-white font-normal py-6 sm:px-24 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100 mt-auto uppercase'>
-                  <img src={logo} alt="" />
+                  <img src={logo} alt="" style={{ filter: 'drop-shadow(3px 3px 9px #ffffff)' }}/>
                 </h1>
                 <h3 className='text-slate-100 font-bold text-base mt-4 text-center' style={{ textShadow: '2px 1px 1px #000000' }}>{subtext}</h3>
             </div>
