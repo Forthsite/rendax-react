@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 function Articlepage({}) {
   const navbar = [
     {text: 'O nás', href: '/#onas'},
-    {text: 'Lakovna', href: '/#lakovna'},
+    {text: 'Autodoprava', href: '/#autodoprava'},
     {text: 'Galerie', href: '/#galerie'},
     {text: 'Blog', href: '/#blog'},
     {text: 'Kontakt', href: '/#kontakt'}

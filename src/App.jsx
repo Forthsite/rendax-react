@@ -38,7 +38,7 @@ function App() {
 
   const navbar = [
     {text: 'O nás', href: './#onas'},
-    {text: 'Autodoprava', href: './#lakovna'},
+    {text: 'Autodoprava', href: './#autodoprava'},
     {text: 'Galerie', href: './#galerie'},
     {text: 'Blog', href: './#blog'},
     {text: 'Kontakt', href: './#kontakt'}
